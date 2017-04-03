@@ -1,0 +1,4 @@
+
+module.exports={
+    'UPDATE_CODE_EDITOR_INSTANCE':'UPDATE_CODE_EDITOR_INSTANCE'
+}
