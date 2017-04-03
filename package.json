@@ -20,10 +20,6 @@
     "child_process": "^1.0.2",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.9.1",
-    "electron-connect": "^0.6.1",
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.37.8",
-    "electron-rebuild": "^1.5.7",
     "file-loader": "^0.10.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
@@ -47,8 +43,5 @@
     "url": "^0.11.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "devDependencies": {
-    "electron": "^1.4.15"
   }
 }

@@ -10,8 +10,15 @@ class Workspace extends Component {
     //import component callback
     onImportItem(item) {
 
-        
-        const {options} = this.props
+
+        var  {_IStandaloneCodeEditor} = this.props;
+        var position=_IStandaloneCodeEditor.getPosition();
+
+        //TODO:换行行为缩进探索
+
+
+
+
         this.props.dispatch(importComponent(item)).then((payload) => {
             alert('callback=========importComponent type='+payload.type);
             //always got null
