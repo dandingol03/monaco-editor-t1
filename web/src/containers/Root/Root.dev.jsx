@@ -10,7 +10,7 @@ class Root extends Component {
         const { store, } = this.props
         return (
             <Provider store={store}>
-                <div className='vbox full-size-relative' style={{overflow: 'hidden',}}>
+                <div style={{display:'flex',flex:1}}>
                     <Router store={store} />
                 </div>
             </Provider>

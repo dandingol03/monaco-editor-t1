@@ -29,12 +29,18 @@ module.exports = {
                 loader: 'json',
             },
             {
-                test: /\.(js|jsx)$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 loaders: [
                     'react-hot',
                     'babel-loader',
                 ],
+            },
+
+            {
+                test: /\.jsx?$/,
+                loaders: ['babel?presets[]=es2015,presets[]=react,presets[]=stage-0'],
+                exclude: /node_modules/
             },
             { test: /\.css$/, loaders: ['style', 'css']},
 

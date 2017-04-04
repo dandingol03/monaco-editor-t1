@@ -10,12 +10,7 @@ import {
 //const Buffer = Electron.remote.getGlobal('Buffer');
 
 import App from '../App.jsx'
-// import Landing from '../Landing.jsx'
-// import Workspace from '../Workspace.jsx'
-//
-// import { initializeProcessesForDir, } from '../../actions/applicationActions.js'
-// import { setTopDir, } from '../../actions/fileActions'
-// import { scanLocalRegistries } from '../../actions/moduleActions.js'
+
 
 import CodeEditor from '../../components/CodeEditor';
 import Workspace from '../Workspace';

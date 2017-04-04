@@ -5,7 +5,7 @@ import _ from 'lodash'
 import { connect } from 'react-redux'
 import {
     updateCodeEditorInstance
-} from '../action/monacoActions';
+} from '../actions/monacoActions';
 
 class CodeEditor extends React.Component {
     constructor(props) {

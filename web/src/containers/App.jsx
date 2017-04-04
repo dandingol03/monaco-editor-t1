@@ -11,11 +11,18 @@ class App extends Component {
 
         return (
 
-            <div style={{width:'100%',height:'100%'}}>
+            <div style={styles.container}>
                 {this.props.children}
             </div>
 
         )
+    }
+}
+
+var styles={
+    container:{
+        flex:1,
+        display:'flex'
     }
 }
 
